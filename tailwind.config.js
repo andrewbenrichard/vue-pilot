@@ -1,0 +1,61 @@
+module.exports = {
+  mode: "jit",
+  purge: [
+    "./components/**/*.{vue,js}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./nuxt.config.{js,ts}",
+    "./app.vue",
+  ],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {
+      colors: {
+        primary: '#0010F7',
+        'primary-200': '#0063F7',
+        'primary-300': '#55B1F3',
+        'primary-400': '#EBFAFA',
+        secondary: '#C903FF',
+        'secondary-200': '#E26BF5',
+        'secondary-300': '#F7C2FF',
+        'secondary-400': '#FDEFFC',
+        danger: '#FF0022',
+        'danger-200': '#FF455E',
+        'danger-300': '#FF8B9A',
+        'danger-400': '#FFE7EA',
+        success: '#00F7BF',
+        'success-200': '#00F7BF',
+        'success-300': '#98FFE0',
+        'success-400': '#EAFFF8',
+        warning: '#FFC700',
+        'warning-200': '#FFD252',
+        'warning-300': '#FFE393',
+        'warning-400': '#FFF9E9',
+        info: '#1BE7FF',
+        'info-200': '#59EDFF',
+        'info-300': '#97F4FF',
+        'info-400': '#EAFCFF',
+        dark: '#111314',
+        'dark-100': '#2D3436',
+        'dark-80': '#636E72',
+        'dark-60': '#B2BEC3',
+        'dark-40': '#DFE6E9',
+        'dark-20': '#F0F3F5',
+        'dark-10': '#F7FAFC',
+        
+      },
+      fontSize: {
+        'h1': '42px',
+        'h2': '28px',
+        'h3': '24px',
+        'h4': '20px',
+        'h5': '16px',
+      }
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}

@@ -1,0 +1,138 @@
+// @import '../fonts/fonts.scss';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+
+    div#__nuxt {
+        height: 100%;
+
+        div#__layout {
+            height: 100%;
+        }
+    }
+}
+
+.el-select {
+    width: 150px;
+
+    .el-input .el-select__caret {
+        color: #2D3436 !important;
+        font-weight: 700;
+    }
+
+    .el-input__inner {
+        font-weight: 500;
+
+        &::placeholder {
+            color: #2D3436;
+        }
+
+        &:-ms-input-placeholder {
+            color: #2D3436;
+        }
+
+        &::-ms-input-placeholder {
+            color: #2D3436;
+        }
+    }
+}
+
+button.el-button.el-button--text.is-plain.is-circle:hover {
+    border: none;
+    background: #EBFAFA;
+    color: #0010F7;
+}
+
+button.el-button.el-button--text.is-plain.is-circle:active {
+    border: none;
+    background: #EBFAFA;
+    color: #0010F7;
+}
+
+button.el-button.el-button--text.is-plain.is-circle:focus {
+    border: none;
+    background: #EBFAFA;
+    color: #0010F7;
+}
+
+button.el-button.el-button--danger {
+    background-color: #FF0022;
+}
+
+.yd_card:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.el-dialog__header {
+    display: none;
+}
+
+button.el-button.el-button--default {
+    background: #FFFFFF;
+    border: 1px solid #0010F7;
+    box-sizing: border-box;
+    border-radius: 7px;
+    color: #0010F7;
+}
+
+button.el-button.el-button--primary {
+    background: #0010F7;
+    border-radius: 7px;
+}
+
+button.el-button.el-button--primary.is-plain {
+    background: #EBFAFA;
+    color: #0010F7;
+}
+
+button.el-button.el-button--default.el-button--small.el-button--primary {
+    color: #ffffff;
+}
+
+.el-loading-spinner {
+    display: flex;
+    justify-content: center;
+}
+
+.el-input.is-active .el-input__inner,
+.el-input__inner:focus {
+    border-color: #0010F7 !important;
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover>td.el-table__cell {
+    background-color: #EBFAFA !important;
+}
+
+td.el-table__cell {
+    cursor: pointer;
+}
+
+span.el-avatar.el-avatar--circle {
+    background: #EBFAFA;
+    border: #FFFFFF 3px solid;
+}
+
+svg {
+    display: inline !important;
+    vertical-align: sub !important;
+}
+
+.el-switch.is-checked .el-switch__core {
+    background: #0010F7 !important;
+}
+/* input */
+.el-form-item__label{
+    line-height: 16px !important;
+}
+
+// @media only screen and (min-width: 768px){
+//     .el-col-sm-10 {
+//         width: 50%;
+//     }
+// }
